@@ -1,0 +1,38 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+header{
+    background-color: #2C3E50;
+}
+header .boxes {
+    width: 80%;
+    margin: auto;
+}
+header .boxes .logo {
+    float: left;
+}
+header .boxes .menu{
+    float: right;
+}
+header .boxes .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 17px;
+    display: block;
+}
+header .menu ul li a{
+    color: #fff;
+    padding: 25px 20px;
+    display: block;
+    text-decoration: none;
+}
+header .menu ul li {
+    float: left;
+    list-style: none;
+}
